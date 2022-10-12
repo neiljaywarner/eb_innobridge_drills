@@ -36,6 +36,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  wear: ^1.1.0 # by flutter community, includes ambient or not and square/round expansion_tile_card:
+  # may need otehrs for connectivity with phone app and def extra work for ios watcher:
+  # but fundamental idea is that its just a screen..
 
 dev_dependencies:
   flutter_test:

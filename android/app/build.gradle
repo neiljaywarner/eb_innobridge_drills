@@ -47,7 +47,7 @@ android {
         applicationId "com.everbridge.eb_innobridge_drills"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 23 // for android wear plugin in pubspec.yaml.  it is still very old minsdk
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
